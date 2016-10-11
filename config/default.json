@@ -1,0 +1,16 @@
+{
+  "tmi": {
+    "options": {
+      "debug": true
+    },
+    "connection": {
+      "cluster": "aws",
+      "reconnect": true
+    },
+    "identity": {
+      "username": "drathal",
+      "password": "oauth:token"
+    },
+    "channels": ["drathal"]
+  }
+}

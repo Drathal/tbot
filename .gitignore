@@ -1,0 +1,13 @@
+/node_modules
+/coverage
+/reports
+/.tmp
+/.idea
+/dist
+/i18n
+/.nyc_output
+*.log
+*.xml
+.DS_Store
+/.imdone
+/backup
