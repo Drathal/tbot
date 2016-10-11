@@ -8,7 +8,7 @@
       "reconnect": true
     },
     "identity": {
-      "username": "drathal",
+      "username": "drathalbot",
       "password": "oauth:token"
     },
     "channels": ["drathal"]
