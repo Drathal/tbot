@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "start": "node .",
-    "test": "ava --tap | tap-spec"
+    "test": "nyc ava"
   },
   "author": "",
   "license": "ISC",
@@ -13,6 +13,7 @@
     "config": "^1.21.0",
     "irc-framework": "^2.5.0",
     "mustache": "^2.2.1",
+    "nyc": "^8.3.1",
     "tmi.js": "^1.1.1"
   },
   "devDependencies": {
@@ -22,7 +23,7 @@
     "eslint-plugin-promise": "^3.0.0",
     "eslint-plugin-standard": "^2.0.1",
     "mock-socket": "^5.0.1",
-    "tap-spec": "^4.1.1"
+    "nyc": "^8.3.1"
   },
   "ava": {
     "files": [
@@ -40,5 +41,17 @@
     "require": [
       "./test/helper.js"
     ]
+  },
+  "nyc": {
+    "include": "lib/**/*.js",
+    "exclude": "lib/**/*.spec.js",
+    "reporter": [
+      "lcov",
+      "text"
+    ],
+    "report-dir": "./coverage",
+    "all": true,
+    "sourceMap": true,
+    "instrument": true
   }
 }
