@@ -4,13 +4,14 @@
   "description": "",
   "main": "lib/index.js",
   "scripts": {
-    "start": "node .",
+    "start": "electron .",
     "test": "nyc ava"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Markus Dethlefsen <code@markus-dethlefsen.de>",
+  "license": "MIT",
   "dependencies": {
     "config": "^1.21.0",
+    "electron": "^1.4.3",
     "irc-framework": "^2.5.0",
     "mustache": "^2.2.1",
     "nyc": "^8.3.1",

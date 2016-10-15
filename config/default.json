@@ -11,18 +11,22 @@
       "username": "drathalbot",
       "password": "oauth:token"
     },
-    "channels": ["drathal","drathalbot"]
+    "channels": ["drathal", "drathalbot"]
   },
-  "options" : {
-    "prefix" : "!",
-    "botConnectedMessage" : "Hallo, ich bin der Hausmeister!",
-    "commands" : {
+  "options": {
+    "prefix": "!",
+    "botConnectedMessage": "Hallo, ich bin der Hausmeister!",
+    "commands": {
       "test": "Yeah, this is just a test.",
       "hardware": "This stream uses a C64 to render everything. Really.",
       "visitors": "visitors: {{ visitorCount }}"
     },
-    "greetUser" : {
-      "message" : "{{ username }}, welcome to the stream!"
+    "greetUser": {
+      "message": "{{ username }}, welcome to the stream!"
     }
+  },
+  "window": {
+    "width": 800,
+    "height": 600
   }
 }
