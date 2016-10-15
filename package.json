@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "start": "node .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ava --tap | tap-spec"
   },
   "author": "",
   "license": "ISC",
@@ -16,9 +16,29 @@
     "tmi.js": "^1.1.1"
   },
   "devDependencies": {
+    "ava": "^0.16.0",
     "eslint": "^3.7.1",
     "eslint-config-standard": "^6.2.0",
     "eslint-plugin-promise": "^3.0.0",
-    "eslint-plugin-standard": "^2.0.1"
+    "eslint-plugin-standard": "^2.0.1",
+    "mock-socket": "^5.0.1",
+    "tap-spec": "^4.1.1"
+  },
+  "ava": {
+    "files": [
+      "lib/**/*.spec.js"
+    ],
+    "source": [
+      "lib/**/*.js",
+      "!lib/**/*.spec.js"
+    ],
+    "match": [],
+    "concurrency": 5,
+    "failFast": true,
+    "tap": true,
+    "powerAssert": true,
+    "require": [
+      "./test/helper.js"
+    ]
   }
 }

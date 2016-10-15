@@ -1,0 +1,12 @@
+{
+  "tmi": {
+    "options": {
+      "debug": false
+    },
+    "connection": {
+      "server" : "localhost",
+      "port" : "8080",
+      "reconnect": false
+    }
+  }
+}
