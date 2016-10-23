@@ -2,13 +2,13 @@
   "env": {
     "development": {
       "application/javascript": {
-        "presets": ["es2016-node5", "react"],
+        "presets": ["es2015", "stage-0", "react"],
         "sourceMaps": "inline"
       }
     },
     "production": {
       "application/javascript": {
-        "presets": ["es2016-node5", "react"],
+        "presets": ["es2015", "stage-0", "react"],
         "sourceMaps": false
       }
     }
