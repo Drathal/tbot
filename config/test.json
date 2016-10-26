@@ -1,1 +1,12 @@
-{}
+{
+  "tmi": {
+    "channels": ["drathal", "drathalbot"]
+  },
+  "options": {
+    "botConnectedMessage": "connectedMessage",
+    "prefix": "!",
+    "commands": {
+      "test": "testcommand"
+    }
+  }
+}

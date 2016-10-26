@@ -13,14 +13,14 @@
   "license": "MIT",
   "dependencies": {
     "config": "^1.21.0",
-    "electron": "^1.4.3",
+    "electron": "^1.4.4",
     "irc-framework": "^2.5.0",
     "lodash": "^4.16.4",
     "mustache": "^2.2.1",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
     "react-redux": "^4.4.5",
-    "react-router": "^2.8.1",
+    "react-router": "^3.0.0",
     "react-router-redux": "^4.0.6",
     "redux": "^3.6.0",
     "tmi.js": "^1.1.2"
@@ -33,15 +33,16 @@
     "babel-preset-es2016-node5": "^1.1.2",
     "babel-preset-react": "^6.16.0",
     "babel-preset-stage-0": "^6.16.0",
-    "electron-prebuilt-compile": "^1.4.3",
+    "electron-prebuilt-compile": "^1.4.4",
     "eslint": "^3.8.1",
-    "eslint-config-standard": "^6.2.0",
-    "eslint-plugin-promise": "^3.0.0",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.3.0",
     "eslint-plugin-react": "^6.4.1",
     "eslint-plugin-standard": "^2.0.1",
     "mock-socket": "^5.0.1",
-    "nyc": "^8.3.1",
-    "pretty-error": "^2.0.2"
+    "nyc": "^8.3.2",
+    "pretty-error": "^2.0.2",
+    "sinon": "^1.17.6"
   },
   "babel": {
     "presets": [

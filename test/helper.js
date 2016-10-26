@@ -1,4 +1,5 @@
 process.env.NODE_ENV = 'test'
+require('../lib/config').get()
 
 const PrettyError = require('pretty-error')
 const pe = PrettyError.start()

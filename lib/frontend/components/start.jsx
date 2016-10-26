@@ -5,6 +5,8 @@ const component = ({ messages }) => (<div className={`main`}>
   <h1>tbot</h1>
   <button onClick={ () => ipcRenderer.send('start') } >{ messages.buttton_start }</button>
   <button onClick={ () => ipcRenderer.send('stop') } >{ messages.buttton_stop }</button>
+  <div>
+  </div>
 </div>)
 
 component.propTypes = {
