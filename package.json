@@ -15,6 +15,7 @@
     "config": "^1.21.0",
     "electron": "^1.4.3",
     "irc-framework": "^2.5.0",
+    "lodash": "^4.16.4",
     "mustache": "^2.2.1",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
