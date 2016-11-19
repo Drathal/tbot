@@ -14,6 +14,7 @@
   "dependencies": {
     "config": "^1.21.0",
     "electron": "^1.4.4",
+    "hooker": "^0.2.3",
     "irc-framework": "^2.5.0",
     "lodash": "^4.16.4",
     "mustache": "^2.2.1",
@@ -23,6 +24,7 @@
     "react-router": "^3.0.0",
     "react-router-redux": "^4.0.6",
     "redux": "^3.6.0",
+    "sinon": "^2.0.0-pre.3",
     "tmi.js": "^1.1.2"
   },
   "devDependencies": {
@@ -39,10 +41,13 @@
     "eslint-plugin-promise": "^3.3.0",
     "eslint-plugin-react": "^6.4.1",
     "eslint-plugin-standard": "^2.0.1",
+    "mock-require": "^2.0.0",
     "mock-socket": "^5.0.1",
     "nyc": "^8.3.2",
     "pretty-error": "^2.0.2",
-    "sinon": "^1.17.6"
+    "rewire": "^2.5.2",
+    "sinon": "^2.0.0-pre.3",
+    "testdouble": "^1.9.0"
   },
   "babel": {
     "presets": [
